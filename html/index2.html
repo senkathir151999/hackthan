@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="../css/pagethree.css" rel="stylesheet" />
+    <script src="../sass/javascript/pagethre.js"></script>
+   
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <div>
+          
+          <h1>Test Quiz</h1>
+          <p>Description Comes here</p>
+        </div>
+        
+         
+        <div> <button id="modal-btn" class="button" onclick= btnopen();>ADD A QUESTION </button></div>
+          <div id="my-modal" class="modal" >
+             <a href="#" class="next round" onclick="btnclose();">&#8249;</a>
+            <div class="popup">
+              
+              <div class="grid"><div id = "grid-1" class="grid-1" onclick= gridopen();>
+                <h2>Type 1</h2>
+                <h3>Question as Text and <br>
+Options as Text</h3>
+                   
+              </div>
+              <div class="grid-1">
+                <h2>Type 1</h2>
+                <h3>Question as Text and <br>
+Options as Text</h3>
+              </div>
+              <div class="grid-1">
+                <h2>Type 1</h2>
+                <h3>Question as Text and <br>
+Options as Text</h3>
+              </div>
+              <div class="grid-1">
+                <h2>Type 1</h2>
+                <h3>Question as Text and <br>
+Options as Text</h3>
+              </div>
+             
+              
+             
+            </div>
+         
+        
+        </div>
+         
+        
+      </header>      
+    
+<div  id = "second-pop" class="second-pop" >
+   <a href="#" class="next round" onclick="goBack();">&#8249;</a>
+  <div class="second-content">
+  
+    <div class="second-inside">
+      <div class="content-flex">
+        <div class="flex-1"><input type ="text" placeholder="Enter Question" ></div>
+        <div class="flex-2">
+          <label  class="lable" for="time">Time</label>
+
+<select  class="drop-time" name="time" id="cars">
+  <option  class="text">10s</option>
+  <option >20s</option>
+  <option >30s</option>
+  <option >40s</option>
+</select>
+</div>
+<div class="flex-2">
+ <label class="lable"  for="time">Points</label>
+<select  name="point" id="cars">
+  <option>1000</option>
+  <option >2000</option>
+  <option >3000</option>
+  <option >4000</option>
+</select>
+
+        </div>
+
+
+      </div>
+      <div class="answer">
+        <div class=" flex-box">
+          <div class="flex"><input type="text" placeholder="ENTER OPTION"></div>
+          <div class="flexx"><input  placeholder="ENTER OPTION"></div>
+          <div class="flexxx"><input  placeholder="ENTER OPTION"></div>
+          <div class="flexxxx"><input  placeholder="ENTER ANSWER"></div>
+         
+        </div>
+       
+      </div>
+       <div class="buttons">
+        <button class="btn-1">Cancel</button>
+          <button   class="btn-2" >Submit</button>
+      </div>
+      
+    </div>
+  </div>
+
+
+</div>
+    </div>
+  
+    
+  </body>
+</html>

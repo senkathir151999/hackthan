@@ -1,0 +1,207 @@
+body, html {
+  max-width: 100%;
+  margin: 0px;
+  background-color: #131C4D;
+  height: 100%;
+  font-family: 'Rubik', sans-serif;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.content h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.content h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.content .type-quiz {
+  margin-top: 50px;
+}
+
+.content .type-quiz input {
+  background: #575a6e;
+  border: 1px solid #999999;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 22px 400px 20px 20px;
+  border-radius: 16px;
+}
+
+.content .type-quiz ::-webkit-input-placeholder {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  color: #EEEEEE;
+  opacity: 0.3;
+}
+
+.content .type-quiz :-ms-input-placeholder {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  color: #EEEEEE;
+  opacity: 0.3;
+}
+
+.content .type-quiz ::-ms-input-placeholder {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  color: #EEEEEE;
+  opacity: 0.3;
+}
+
+.content .type-quiz ::placeholder {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #EEEEEE;
+  opacity: 0.3;
+}
+
+.content .type-quiz input:focus {
+  outline: none;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.btn button {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  padding: 22px 150px;
+  color: #EEEEEE;
+  background: #FF2567;
+  border: 1px solid #999999;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 42px;
+}
+
+.btn button:focus {
+  outline: none;
+}
+
+.description {
+  margin-top: 50px;
+}
+
+.description input {
+  background: #575a6e;
+  border: 1px solid #999999;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px 400px 150px 20px;
+  border-radius: 16px;
+}
+
+.description ::-webkit-input-placeholder {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  color: #EEEEEE;
+  opacity: 0.3;
+}
+
+.description :-ms-input-placeholder {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  color: #EEEEEE;
+  opacity: 0.3;
+}
+
+.description ::-ms-input-placeholder {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  color: #EEEEEE;
+  opacity: 0.3;
+}
+
+.description ::placeholder {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #EEEEEE;
+  opacity: 0.3;
+}
+
+.description input:focus {
+  outline: none;
+}
+/*# sourceMappingURL=pagetwo.css.map */
